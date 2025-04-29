@@ -1,0 +1,43 @@
+{
+  "name": "guava",
+  "version": "1.0.0",
+  "description": "CLI tool to create a modern Next.js application with the Guava Stack",
+  "type": "module",
+  "bin": {
+    "create-guava-app": "./index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "nextjs",
+    "shadcn",
+    "clerk",
+    "drizzle",
+    "typescript",
+    "tailwind",
+    "scaffold",
+    "cli"
+  ],
+  "author": "Aditya Gupta",
+  "license": "MIT",
+  "dependencies": {
+    "@clerk/nextjs": "^6.18.0",
+    "@vercel/postgres": "^0.10.0",
+    "chalk": "^5.3.0",
+    "drizzle-orm": "^0.43.1",
+    "inquirer": "^9.2.12",
+    "next-themes": "^0.4.6",
+    "ora": "^7.0.1",
+    "pg": "^8.15.6"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.31.0"
+  }
+}
